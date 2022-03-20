@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hellloooooo again
+    this file contains about loops in JS
+    <script>
+        // iteraying an array using for loop
+        var arr= [1,2,3,4,5,6,7];
+        // console.log(arr);
+        // for(var i=0;i< arr.length;i++)
+        // {
+        //     console.log(arr[i]);
+        // }
+
+        //iteraying an array using for each loop
+
+        arr.forEach(function(element){
+            console.log(element);
+        })
+
+
+        //while loop
+
+        var arr1=[9,8,7,6,5]
+        let j=0;  //we use let if we want the variable to be accessible within the particular block
+        // while(j< arr1.length)
+        // {
+        //     console.log(arr1[j]);
+        //     j++;
+        // }
+
+        //do while loop
+
+
+        do{
+            console.log(arr1[j]);
+            j++;
+
+        } while(j<arr1.length);
+
+        //break and continue statement
+
+        var arr2= [10,20,30,40,50];
+        console.log(arr2);
+        for(var i=0;i< arr2.length;i++)
+        {
+            if(i==2)
+           // break; //only 10 and 20 gets printed rest are skipped
+           continue;  //after 10 and 20 , 30 is skipped and 40, 50 are printed
+            console.log(arr2[i]);
+        }
+
+
+    </script>
+</body>
+</html>
